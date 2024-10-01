@@ -107,7 +107,9 @@ Solution: We implemented a proportional control algorithm that adjusts the steer
 Welcome to the official repository for the Self-Driving Car project. For detailed documentation, including hardware setup, software details, and troubleshooting, please visit our [GitHub Wiki].( https://github.com/mahesh-oss-cloud/Self-driving-Car.wiki.git)
 
 The codes for the System program of the car :-
+
 ****Ultrasonic Sensors(HC2R04)**
+
 **// Right sensor**
 #define TRIG_RIGHT A2
 #define ECHO_RIGHT A1
@@ -194,6 +196,7 @@ int distance_left;
 
 
 **2.Motor Driver(L298D)**
+
 **//Define pins for Motor A**
 #define ENABLE_A 5
 #define MOTOR_A1 6
@@ -279,6 +282,7 @@ void setupPins(void);
 **
 **
 **3.Color Sensors(TCS3200):-**
+
 **// define pins**
 const int S0 = 2;
 const int S1 = 3;
